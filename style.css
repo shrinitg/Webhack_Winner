@@ -1,0 +1,77 @@
+/*----------------------Nevigation Bar--------------------------------*/
+.topnav {
+
+    background-color: #403;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #eff2f4;
+  color:blue;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+.column {
+  float: left;
+  
+  width: 50%;
+  padding: 40px;
+}
+.abcd{
+float: left;
+  width: 50%;
+  padding: 40px;
+
+}
+
+.social {
+  float: left;
+  
+  width: 33%;
+  padding: 30px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
